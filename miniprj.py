@@ -54,6 +54,9 @@ state_birds = {
     "Wyoming": "Western Meadowlark"
 }
 
+
+
+
 state = input("Choose a state: ").lower()
 bird = input(f"What is the state bird of {state}: ").lower()
 correct_bird = state_birds.get(state)
